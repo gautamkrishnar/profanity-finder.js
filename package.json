@@ -1,0 +1,29 @@
+{
+  "name": "profanity-finder",
+  "version": "1.0.0",
+  "description": "A simple profanity finding library to detect swear language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamkrishnar/profanity-finder.js.git"
+  },
+  "keywords": [
+    "profanity",
+    "finder",
+    "detect",
+    "swear",
+    "words",
+    "bad",
+    "hate",
+    "speach"
+  ],
+  "author": "Gautam krishna R <r.gautamkrishna@gmail.com> (http://www.github.com/gautamkrishnar)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gautamkrishnar/profanity-finder.js/issues"
+  },
+  "homepage": "https://github.com/gautamkrishnar/profanity-finder.js#readme"
+}
