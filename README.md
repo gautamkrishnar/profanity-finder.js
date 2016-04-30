@@ -8,8 +8,8 @@ Simple profanity finding library for javascript to detect swear language. You ca
 ```
 ## Usage
 ```js
-  var profanity-finder = require('profanity-finder')
-      findprofanity = profanity-finder.findprofanity;
+  var profanityfinder = require('profanity-finder');
+  var findprofanity = profanityfinder.findprofanity;
 
   var text="this is shit";
   var x= findprofanity(text);
