@@ -1,5 +1,5 @@
 # profanity-finder.js 
-[![NPM](https://nodei.co/npm/profanity-finder.png?compact=true)](https://nodei.co/npm/profanity-finder/)
+[![NPM](https://nodei.co/npm/profanity-finder.png?downloads=true&stars=true)](https://nodei.co/npm/profanity-finder/)
 
 Simple profanity finding library for javascript to detect swear language. You can include this library in your projects for easily detecting swear words or bad words.
 
