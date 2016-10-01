@@ -1,0 +1,6 @@
+{
+  "name": "Profanity-finder.js",
+  "tagline": "Simple profanity finding library for javascript to detect swear language.Created for nodejs.",
+  "body": "# profanity-finder.js \r\n[![NPM](https://nodei.co/npm/profanity-finder.png?downloads=true&stars=true)](https://nodei.co/npm/profanity-finder/)\r\n\r\nSimple profanity finding library for javascript to detect swear language. You can include this library in your projects for easily detecting swear words or bad words.\r\n\r\n## Installation\r\n```\r\n  npm install profanity-finder --save\r\n```\r\n## Usage\r\n```js\r\n  var profanityfinder = require('profanity-finder');\r\n  var findprofanity = profanityfinder.findprofanity;\r\n\r\n  var text=\"this is shit\";\r\n  var x= findprofanity(text);\r\n  \r\n```\r\nThe value of x will be true if any hate speach is found in the passed string to `findprofanity()`\r\n## Contributing\r\nClone the project and submit your improvements via pull request. Dont forget to checkout profanity finding library for other programming languages: \r\nhttps://github.com/gautamkrishnar/profanity-finder\r\n\r\n## Release History\r\n\r\n* 1.0 Initial release\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
