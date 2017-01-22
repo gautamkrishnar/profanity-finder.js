@@ -1,4 +1,4 @@
-# profanity-finder.js 
+# profanity-finder.js [![npm version](https://badge.fury.io/js/profanity-finder.svg)](https://badge.fury.io/js/profanity-finder)
 Simple profanity finding library for javascript to detect swear language. You can include this library in your projects for easily detecting swear words or bad words.
 
 ## Installation
