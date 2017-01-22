@@ -23,4 +23,5 @@ https://github.com/gautamkrishnar/profanity-finder
 
 ## Release History
 
-* 1.0 Initial release
+* 1.0.1 Initial release
+* 1.0.2 Improved perfomance
