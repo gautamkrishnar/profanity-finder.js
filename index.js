@@ -725,22 +725,17 @@ var bad_words=[
 "yobbo",
 "zoophile"
 ];
+   var i = 0;
+   input=input.toLowerCase();
    input=input.replace(/[\W_]+/g," ");
    var in_words=input.split(' ');
-   var i=0,j=0;
    while (i < in_words.length)
    {
-       j=0;
-       while(j < bad_words.length)
+       if (bad_words.indexOf(in_words[i])>=0)
        {
-           if(in_words[i].toUpperCase()==bad_words[j].toUpperCase())
-           {
-              return true;
-           }
-           j=j+1;
-        }
+           return true;
+       }
         i=i+1;
    }
    return false;
-}
-}
+} };

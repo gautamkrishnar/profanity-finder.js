@@ -1,6 +1,6 @@
 {
   "name": "profanity-finder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple profanity finding library to detect swear language.",
   "main": "index.js",
   "scripts": {
