@@ -7,14 +7,20 @@ Simple profanity finding library for javascript to detect swear language. You ca
 ```
 ## Usage
 ```js
-  var profanityfinder = require('profanity-finder');
-  var findprofanity = profanityfinder.findprofanity;
+  let _lib = require('profanity-finder');
+  let profanityManager = _lib.profanityManager;;
 
-  var text="this is shit";
-  var x= findprofanity(text);
+  let text="this is shit";
+  let x= profanityManager.findprofanity(text);
+
+
+  let remove = profanityManager.replaceProfanity(text);//replace profanity word with *
+  console.log("output : ",remove);
+
   
 ```
-The value of x will be true if any hate speach is found in the passed string to `findprofanity()`
+The value of x will be true if any hate speech is found in the passed string to `findprofanity()`
+
 ## Contributing
 Clone the project and submit your improvements via pull request. Dont forget to checkout profanity finding library for other programming languages: 
 https://github.com/gautamkrishnar/profanity-finder
